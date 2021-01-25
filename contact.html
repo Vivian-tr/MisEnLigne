@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>	
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="css/contact.css">
+	</head>
+	<body>
+
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/Logo-secondaire-noir.gif" class="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav align-items-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profil.html">À propos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Portfolio
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="personnel.html">Projets personnels</a></li>
+            <li><a class="dropdown-item" href="scolaire.html">Projets scolaires</a></li>
+            <li><a class="dropdown-item" href="professionnel.html">Projets professionnels</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="contact-section">
+	<h2>Contact</h2>
+	<p>Si tu as des questions, besoin de plus d'informations, besoin de mon aide pour certains projets ou si tu veux tout simplement me dire bonjour, n'hésite pas à me contacter !</p>
+    <form method="post">
+        <label>Email</label>
+        <input type="email" name="email" required><br>
+        <label>Message</label>
+        <textarea name="message" required></textarea><br>
+        <input type="submit">
+    </form>
+
+    
+    <form id="myform" class="cssform" action="mail">
+
+	<p><label for="user" required>Nom :</label>
+	<input type="text" id="user" value="" /></p>
+
+	<p><label for="emailaddress" required>Email :</label>
+	<input type="text" id="emailaddress" value="" /></p>
+
+	<p><label for="user" required>Sujet :</label><input type="text" name="user"></p>
+
+	<p><label for="comments" required>Message :</label>
+	<textarea id="comments" rows="5" cols="25"></textarea></p>
+
+	<p><label for="comments">Thème :</label>
+	J'ai une question<input type="radio" name="subject" />
+	J'ai besoin d'informations<input type="radio" name="subject" />
+	J'ai un projet<input type="radio" name="subject" />
+	Autre<input type="radio" name="subject" /></p>
+
+	<p><label for="comments">Hobbies :</label>
+	<input type="checkbox" name="hobby" /> Tennis
+	<input type="checkbox" name="hobby" class="threepxfix" /> Badminton
+	<input type="checkbox" name="hobby" class="threepxfix" /> Basketball</p>
+
+	<p><label for="terms">Je veux être notifié(e) lors de la réponse</label>
+	<input type="checkbox" id="terms" class="boxes" /></p>
+
+	<p><div style="margin-left: 150px;">
+		<input type="submit" value="Envoyer" />
+		<input type="reset" value="Reset" />
+	</div></p>
+</form>
+
+	</body
