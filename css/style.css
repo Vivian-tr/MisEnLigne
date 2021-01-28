@@ -128,3 +128,7 @@ hr {
    clip-path:ellipse(50% 50%);
    margin-left: 70px;
 }
+
+a {
+  color: #41464b;
+}

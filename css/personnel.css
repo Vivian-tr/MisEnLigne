@@ -23,3 +23,75 @@
 .banner-content button {
   margin: 50px 0px;
 }  
+
+.partie-une-a h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.partie-une-a h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.partie-une-a img {
+  width: 30%;
+}
+
+.portraits {
+  display: flex;
+  justify-content: center;
+}
+
+.partie-une-b h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.paysages {
+  display: flex;
+  justify-content: center;
+}
+
+.partie-une-b img {
+  width: 20.5%;
+}
+
+.partie-une-c h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.vacances {
+  display: flex;
+  justify-content: center;
+}
+
+.partie-une-c img {
+  width: 27%;
+}
+
+hr {
+  height: 1px;
+  margin: 2rem 110px;
+}
+
+.partie-deux h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+iframe {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
