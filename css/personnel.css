@@ -1,3 +1,5 @@
+/* Navbar */
+
 .logo{
 	width: 33%;
 }
@@ -5,6 +7,8 @@
 .container-fluid {
 	width: 100%;
 }
+
+/* Bannière */
 
 .banner {
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(https://images.unsplash.com/photo-1547105484-2871e57056f8?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80);
@@ -17,34 +21,38 @@
 .banner-content {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  margin: 100px 700px 0px 15px;
+  margin: 100px 600px 0px 15px;
 }
 
 .banner-content button {
   margin: 50px 0px;
 }  
 
+/* Première partie a */
+
 .partie-une-a h2 {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-  margin-bottom: 50px;
 }
 
 .partie-une-a h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 .partie-une-a img {
   width: 30%;
 }
 
-.portraits {
+.images {
   display: flex;
   justify-content: center;
 }
+
+/* Première partie b */
 
 .partie-une-b h3 {
   display: flex;
@@ -53,14 +61,11 @@
   margin-top: 60px;
 }
 
-.paysages {
-  display: flex;
-  justify-content: center;
+.partie-une-b img {
+  width: 25%;
 }
 
-.partie-une-b img {
-  width: 20.5%;
-}
+/* Première partie c */
 
 .partie-une-c h3 {
   display: flex;
@@ -69,19 +74,16 @@
   margin-top: 60px;
 }
 
-.vacances {
-  display: flex;
-  justify-content: center;
-}
-
 .partie-une-c img {
-  width: 27%;
+  width: 30%;
 }
 
 hr {
   height: 1px;
   margin: 2rem 110px;
 }
+
+/* Deuxième partie */
 
 .partie-deux h2 {
   display: flex;
@@ -94,4 +96,63 @@ iframe {
   display: flex;
   justify-content: center;
   margin: auto;
+}
+
+/* Footer */
+
+hr {
+  height: 1px;
+  margin: 2rem 110px;
+}
+
+a {
+  color: #41464b;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+
+  .banner {
+    padding: 30px 25px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: 20px 50px 0px 15px;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 10px 0px;
+  }
+
+  iframe {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .banner {
+    padding: 50px 50px;
+    height: 600px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: auto;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 5px 0px;
+  }
+
 }

@@ -1,3 +1,5 @@
+/* Navbar */
+
 .logo{
 	width: 33%;
 }
@@ -5,6 +7,8 @@
 .container-fluid {
 	width: 100%;
 }
+
+/* Bannière */
 
 .banner {
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(https://images.unsplash.com/photo-1496670013738-4f730477bfdb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
@@ -17,8 +21,160 @@
 .banner-content {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  margin: 100px 700px 0px 15px;
+  margin: 80px 600px 0px 15px;
 }
 
 .banner-content button {
   margin: 50px 0px;
+}
+
+/* Première section */
+
+#section-une {
+  background-color: whitesmoke;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+.circle i {
+  font-size: 2em;
+  margin-top: 70px;
+}
+
+.circle-body {
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  font-color: lightgrey;
+}
+
+.circle-body h5 {
+  font-size: 2em;
+}
+
+.circle-body p {
+  font-size: 1.5em;
+}
+
+/* Première partie */
+
+.partie-une {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.partie-une li {
+  display: flex;
+  font-size: x-large;
+}
+
+/* Deuxième partie */
+
+.partie-deux {
+  background-color: whitesmoke;
+  font-size: xx-large;
+  color: #282828;
+  display: flex;
+  text-align: center;
+}
+
+.partie-deux p {
+  margin: 100px 130px;
+}
+
+/* Troisième partie */
+
+.partie-trois {
+  margin: 100px;
+}
+
+.partie-trois h2 {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* Deuxième section */
+
+#section-deux {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Footer */
+
+hr {
+  height: 1px;
+  margin: 2rem 110px;
+}
+
+a {
+  color: #41464b;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+
+  .banner {
+    padding: 30px 25px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: auto;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 10px 0px;
+  }
+
+  .partie-une li {
+    font-size: medium;
+  }
+
+  .partie-deux {
+    font-size: medium;
+  }
+
+  .partie-deux p {
+    margin: auto;
+  }
+
+  .partie-trois {
+  margin: 100px auto;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .banner {
+    padding: 50px 35px;
+    height: 600px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: auto;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 5px 0px;
+  }
+
+}

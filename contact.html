@@ -3,15 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Contact</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/a283b97068.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/contact.css">
 	</head>
-	<body>
 
+  <body>
 
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"><img src="images/Logo-secondaire-noir.gif" class="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,20 +28,26 @@
         <li class="nav-item">
           <a class="nav-link" href="profil.html">À propos</a>
         </li>
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Portfolio
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="personnel.html">Projets personnels</a></li>
-            <li><a class="dropdown-item" href="scolaire.html">Projets scolaires</a></li>
-            <li><a class="dropdown-item" href="professionnel.html">Projets professionnels</a></li>
+            <li>
+              <a class="dropdown-item" href="personnel.html">Projets personnels</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="scolaire.html">Projets scolaires</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="professionnel.html">Projets professionnels</a>
+            </li>
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="blog.html">Blog</a>
-        </li>        <li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
@@ -46,51 +55,122 @@
   </div>
 </nav>
 
+<!-- Bannière -->
+
+<div class="banner">
+  <div class="banner-content">
+    <h1><strong>CONTACT</strong></h1>
+    <h3>Des questions ?</h3>
+    <br>
+    <p>Si tu as des questions, que tu as besoin de plus d'informations ou de mon aide pour un projet, ou si tu veux tout simplement me faire un coucou, n'hésite sourtout pas à m'écrire !</p>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Me contacter
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Me contacter</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">Prénom</label>
+                <input type="text" class="form-control" placeholder="Prénom" aria-label="First name">
+              </div>
+              <div class="col">
+                <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                <input type="text" class="form-control" placeholder="Nom" aria-label="Last name">
+              </div>
+            </div>
+            <div class="mb-3 mt-4">
+              <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com">
+            </div>
+            <div class="mb-3">
+              <label for="inputState" class="form-label">Sujet</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choisir...</option>
+                <option>J'ai une question</option>
+                <option>Je veux plus d'informations</option>
+                <option>J'ai un projet</option>
+                <option>Petit coucou :)</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="mailto:viviantran@hotmail.de"><button type="button" class="btn btn-secondary">Envoyer</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <a href="https://www.facebook.com/viviantn.tran"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/vivian_tr"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.pinterest.fr/viviantn_tran"><i class="fab fa-pinterest"></i></a>
+      <a href="https://twitter.com/viviaantran"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/viviantn-tran/"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.youtube.com/channel/UCB0ZL1xEDXeTkDegW_uNZhg"><i class="fab fa-youtube"></i></a>
+      <small class="d-block mb-3 text-muted">© 2021</small>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Liens</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="profil.html">À propos</a></li>
+        <li><a class="link-secondary" href="portfolio.html">Portfolio</a></li>
+        <li><a class="link-secondary" href="personnel.html">Projets personnels</a></li>
+        <li><a class="link-secondary" href="scolaire.html">Projets scolaires</a></li>
+        <li><a class="link-secondary" href="professionnel.html">Projets professionnels</a></li>
+        <li><a class="link-secondary" href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Utilitaires</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="https://www.halm.co/">Halm</a></li>
+        <li><a class="link-secondary" href="https://www.kookai.fr/">Kookaï</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Ressources</h5>
+      <ul class="list-unstyled text-small">
+        <li><a class="link-secondary" href="https://getbootstrap.com/">Bootstrap</a></li>
+        <li><a class="link-secondary" href="https://fontawesome.com/">Fontawesome</a></li>
+        <li><a class="link-secondary" href="https://unsplash.com/">Unsplash</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <h5>Contact</h5>
+      <ul class="list-unstyled text-small">
+        <br>
+        <li><p>Vivian Tran</p></li>
+        <li><p>+33 7 81 12 95 65 <br> <a href="mailto:viviantran@hotmail.de">viviantran@hotmail.de</a></p></li>
+      </ul>
+    </div>
+  </div>
+</footer>
 
 
-<div class="contact-section">
-	<h2>Contact</h2>
-	<p>Si tu as des questions, besoin de plus d'informations, besoin de mon aide pour certains projets ou si tu veux tout simplement me dire bonjour, n'hésite pas à me contacter !</p>
-    <form method="post">
-        <label>Email</label>
-        <input type="email" name="email" required><br>
-        <label>Message</label>
-        <textarea name="message" required></textarea><br>
-        <input type="submit">
-    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-    
-    <form id="myform" class="cssform" action="mail">
+  </body>
 
-	<p><label for="user" required>Nom :</label>
-	<input type="text" id="user" value="" /></p>
-
-	<p><label for="emailaddress" required>Email :</label>
-	<input type="text" id="emailaddress" value="" /></p>
-
-	<p><label for="user" required>Sujet :</label><input type="text" name="user"></p>
-
-	<p><label for="comments" required>Message :</label>
-	<textarea id="comments" rows="5" cols="25"></textarea></p>
-
-	<p><label for="comments">Thème :</label>
-	J'ai une question<input type="radio" name="subject" />
-	J'ai besoin d'informations<input type="radio" name="subject" />
-	J'ai un projet<input type="radio" name="subject" />
-	Autre<input type="radio" name="subject" /></p>
-
-	<p><label for="comments">Hobbies :</label>
-	<input type="checkbox" name="hobby" /> Tennis
-	<input type="checkbox" name="hobby" class="threepxfix" /> Badminton
-	<input type="checkbox" name="hobby" class="threepxfix" /> Basketball</p>
-
-	<p><label for="terms">Je veux être notifié(e) lors de la réponse</label>
-	<input type="checkbox" id="terms" class="boxes" /></p>
-
-	<p><div style="margin-left: 150px;">
-		<input type="submit" value="Envoyer" />
-		<input type="reset" value="Reset" />
-	</div></p>
-</form>
-
-	</body
+</html>
+<!-- end of file -->

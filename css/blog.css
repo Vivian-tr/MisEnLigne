@@ -1,3 +1,5 @@
+/* Navbar */
+
 .logo{
 	width: 33%;
 }
@@ -5,6 +7,8 @@
 .container-fluid {
 	width: 100%;
 }
+
+/* Bannière */
 
 .banner {
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(https://images.unsplash.com/photo-1526280760714-f9e8b26f318f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1567&q=80);
@@ -24,10 +28,67 @@
   margin: 50px 0px;
 }  
 
-.card-group{
+/* Cards */
+
+.card-group {
 	margin: 100px 30px;
 }
 
 .card {
 	margin: 0px 50px;
+}
+
+/* Footer */
+
+hr {
+  height: 1px;
+  margin: 2rem 110px;
+}
+
+a {
+  color: #41464b;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+
+  .banner {
+    padding: 30px 25px;
+    height: 500px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: 20px 50px 0px 15px;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 10px 0px;
+  }
+
+  .card {
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .banner {
+    padding: 50px 35px;
+    height: 600px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: auto;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 5px 0px;
+  }
+
 }

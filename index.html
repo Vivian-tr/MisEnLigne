@@ -1,18 +1,22 @@
+<!-- lien github -->
+
 <!DOCTYPE html>
 <html>	
 	<head>
 		<meta charset="utf-8">
 		<title>Portfolio Vivian Tran</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/a283b97068.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
 
+  <body>
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html"><img src="images/Logo-secondaire-noir.gif" class="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,41 +51,48 @@
   </div>
 </nav>
 
-	<div class="banner">
-  		<div class="banner-content">
-   			<h1><strong>Vivian Tran</strong></h1>
-    		<p>“L'apparence est le vêtement de la personnalité.”</p>
-    		<br><br>
-    		<center><div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 border-line" style="border: 1px solid white; width: 50%;"></div></center>
-    		<br><br><br>
-    		<center><button class="btn btn-outline-light" onclick=window.location.href='profil.html'>Qui suis-je ?</button>
-    		<button class="btn btn-outline-light" onclick=window.location.href='portfolio.html'>Mon portfolio</button></center>
-  		</div>
+<!-- Bannière -->
 
-  		<div id="contenu-chevron">
-		    <div class="d-flex justify-content-center align-items-end" style="margin:auto;">
-        		<a href="#section-bas-first"><i class="bi bi-chevron-compact-down" style="font-size: 30px; color: #fff;"></i></a>
-    		</div>
-		  </div>
+<div class="banner">
+	<div class="banner-content">
+			<h1><strong>Vivian Tran</strong></h1>
+		<p>“L'apparence est le vêtement de la personnalité.”</p>
+		<br><br>
+		<center><div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4 border-line" style="border: 1px solid white; width: 50%;"></div></center>
+		<br><br><br>
+		<center><button class="btn btn-outline-light" onclick=window.location.href='profil.html'>Qui suis-je ?</button>
+		<button class="btn btn-outline-light" onclick=window.location.href='portfolio.html'>Mon portfolio</button></center>
 	</div>
+	<div id="contenu-chevron">
+    <div class="d-flex justify-content-center align-items-end" style="margin:auto;">
+    		<a href="#section-bas-first"><i class="bi bi-chevron-compact-down" style="font-size: 30px; color: #fff;"></i></a>
+		</div>
+  </div>
+</div>
+
+<!-- Contenu 1 -->
 
 <div id="section-bas-first" class="container">
-	<div class="presentation">
-		<img src="images/profil3.png">
-		<div class="texte1">
-	    	<h2>Hello !</h2>
-		    <p>Je m'appelle Vivian Tran et je suis étudiante en Master 1 en Digital Marketing &amp; Data Analytics. Sur ce site, tu pourras retrouver plus d'informations sur mon profil ainsi que mes projets réalisés durant mes études. Bonne visite !</p>
-		    <button class="btn btn-outline-dark" onclick="window.location.href='profil.html';">Découvrir</button>
-	    </div>
-	</div>
+  <div class="row">
+    <div class="col-12 col-md-3">
+      <img src="images/profil3.png" class="img-fluid">
+    </div>
+    <div class="col-12 col-md-9 partie-une">
+      <h2>Hello !</h2>
+      <p>Je m'appelle Vivian Tran et je suis étudiante en Master 1 en Digital Marketing &amp; Data Analytics. Sur ce site, tu pourras retrouver plus d'informations sur mon profil et découvrir certains de mes projets. Bonne visite !</p>
+      <button class="btn btn-outline-dark" onclick="window.location.href='portfolio.html';">Découvrir</button>
+    </div>
+  </div>
 </div>
+
+<!-- Cards -->
 
 <div class="cards">
   <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1635&q=80)">
     BIEN-ÊTRE
   </div>
 
-  <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80)">
+  <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80)">
     STYLE
   </div>
 
@@ -94,17 +105,18 @@
   <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1501419737817-eadda6b445e3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1568&q=80)">
     OUVERTURE D'ESPRIT
   </div>
-<!--
-  <div class="card-element" style="background-image: url(file:///Users/viviantran/Desktop/Projet%20site/images/Logo-secondaire-noir.gif)">
+
+  <div class="card-element logo-noir" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1))">
+    <img src="images/Logo-secondaire-noir.gif" class="img-fluid">
   </div>
--->
+
   <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1604537466573-5e94508fd243?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80)">
     INSPIRATION
   </div>
 </div>
 
 <div class="cards">
-  <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1514580426463-fd77dc4d0672?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=660&q=80)">
+  <div class="card-element" style="background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1655&q=80)">
     CRÉATIVITÉ
   </div>
 
@@ -117,29 +129,41 @@
   </div>
 </div>
 
-	<div class="first-part">
-		<img src="https://cdn.shopify.com/s/files/1/0250/9049/0473/products/HALM-Wiederverwendbare-strohhalm-gruene-smoothie-erdbeer-shake-20cm-trinkhalme_add91f1c-0cda-48d1-987c-b38d490fe98f_2000x.jpg?v=1604484084">
-		  <div class="texte2">
-	    	<h3>Johannes Arning</h3>
-	    	<h4><i style="color: grey">General Manager - Halm Straws GmbH</i></h4>
-	    	<br>
-		    <p><i>"Strong in data analytics and processing, works quickly, is extremely reliable, quick learner"</i></p>
-	    </div>
-	</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <img src="https://cdn.shopify.com/s/files/1/0250/9049/0473/products/HALM-Wiederverwendbare-strohhalm-gruene-smoothie-erdbeer-shake-20cm-trinkhalme_add91f1c-0cda-48d1-987c-b38d490fe98f_2000x.jpg?v=1604484084"class="img-fluid" style="clip-path: ellipse(50% 50%)">
+    </div>
+    <div class="col-12 col-md-8 texte">
+      <h3>Johannes Arning</h3>
+      <h4><i style="color: grey">General Manager - Halm Straws GmbH</i></h4>
+      <br>
+      <p><i>"Strong in data analytics and processing, works quickly, is extremely reliable, quick learner"</i></p>
+    </div>
+  </div>
+</div>
 
 <hr>
 
-	<div class="second-part">
-		<div class="texte2">
-	    	<h3>Virginie Mesure</h3>
-	    	<h4><i style="color: grey">Responsable Boutique - KOOKAÏ</i></h4>
-	    	<br>
-		    <p><i>"Intégration rapide, ordonnée, rigoureuse, réactive, consciencieuse : Belle expérience en sa compagnie, personne serieuse avec un très bon relationnel, ce qui est primordial dans le commerce."</i></p>
-	    </div>
-		<img src="https://media.glassdoor.com/sqll/411876/kookai-squarelogo-1449840880615.png">	</div>
+<!-- Contenu 2 -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-8 texte">
+      <h3>Virginie Mesure</h3>
+      <h4><i style="color: grey">Responsable Boutique - KOOKAÏ</i></h4>
+      <br>
+      <p><i>"Intégration rapide, ordonnée, rigoureuse, réactive, consciencieuse : Belle expérience en sa compagnie, personne serieuse avec un très bon relationnel, ce qui est primordial dans le commerce."</i></p>
+    </div>
+    <div class="col-12 col-md-4">
+      <img src="https://i.pinimg.com/originals/ff/a9/e2/ffa9e2216f1f95f31898f03571d5ea83.gif"class="img-fluid" style="clip-path: ellipse(50% 50%)">
+    </div>
   </div>
+</div>
 
 <hr>  
+
+<!-- Footer -->
 
 <footer class="container py-5">
   <div class="row">
@@ -168,8 +192,6 @@
       <ul class="list-unstyled text-small">
         <li><a class="link-secondary" href="https://www.halm.co/">Halm</a></li>
         <li><a class="link-secondary" href="https://www.kookai.fr/">Kookaï</a></li>
-        <li><a class="link-secondary" href="#">Twitter</a></li>
-        <li><a class="link-secondary" href="#">YouTube</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
@@ -177,8 +199,7 @@
       <ul class="list-unstyled text-small">
         <li><a class="link-secondary" href="https://getbootstrap.com/">Bootstrap</a></li>
         <li><a class="link-secondary" href="https://fontawesome.com/">Fontawesome</a></li>
-        <li><a class="link-secondary" href="#">Government</a></li>
-        <li><a class="link-secondary" href="#">Gaming</a></li>
+        <li><a class="link-secondary" href="https://unsplash.com/">Unsplash</a></li>
       </ul>
     </div>
     <div class="col-6 col-md">
@@ -186,16 +207,17 @@
       <ul class="list-unstyled text-small">
         <br>
         <li><p>Vivian Tran</p></li>
-        <li><p>+33 7 81 12 95 65 <br> viviantran@hotmail.de</p></li>
+        <li><p>+33 7 81 12 95 65 <br> <a href="mailto:viviantran@hotmail.de">viviantran@hotmail.de</a></p></li>
       </ul>
     </div>
   </div>
 </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
-
-    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 	</body>
+
 </html>
+
 <!-- end of file -->

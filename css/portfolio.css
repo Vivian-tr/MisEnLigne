@@ -1,3 +1,5 @@
+/* Navbar */
+
 .logo{
 	max-width: 33%;
 }
@@ -5,6 +7,8 @@
 .container-fluid {
 	width: 100%;
 }
+
+/* Bannière */
 
 .banner {
   background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), url(https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
@@ -24,13 +28,13 @@
   margin: 50px 0px;
 }
 
+/* Cards */
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
+  margin: 100px 0px;
   display: flex;
-  flex-wrap: wrap;
-  margin: 100px 100px 0px 100px;
-  color: black;
   text-align: center;
 }
 
@@ -38,16 +42,13 @@
   margin-top: 20px;
 }
 
-hr {
-  height: 1px;
-  margin: 2rem 110px;
-}
+/* Section citation */ 
 
 .citation {
   display: flex;
   flex-direction: column;
   text-align: right;
-
+  background-color: whitesmoke;
 }
 
 .texte {
@@ -56,8 +57,60 @@ hr {
   margin-right: 300px;
 }
 
+.texte p {
+  margin: 70px auto;
+}
+
 .auteur {
   font-size: 20px;
-  margin-left: 200px;
-  margin-right: 200px; 
+  margin: 0px 200px 70px 200px;
 }
+
+/* Footer */
+
+hr {
+  height: 1px;
+  margin: 2rem 110px;
+}
+
+a {
+  color: #41464b;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px) {
+
+  .banner {
+    padding: 30px 25px;
+    height: 600px;
+    width: 100%;
+  }
+
+  .banner-content {
+    margin: auto;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 5px 0px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .banner {
+    padding: 100px 35px;
+  }
+
+  .banner-content {
+    margin: auto;
+    font-size: small;
+  }
+
+  .banner-content button {
+    margin: 5px 0px;
+  }
+
+}
+
